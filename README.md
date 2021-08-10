@@ -1,9 +1,9 @@
 # The implementation of Neural ODE
 
-# 1. From Machine Learning to ODE
+### 1. From Machine Learning to ODE
 
-# 2. From ODE to Neural ODE
+### 2. From ODE to Neural ODE
 
-# 3. Implementations
+### 3. Implementations
 
-# 4. Possible Usecases
+### 4. Possible Usecases

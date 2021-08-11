@@ -5,10 +5,9 @@
 Many non-linear problems can be solved using ML. 
 
 The idea of Neural Networks is to learnable matrices of parameters.
+A differential equation is a way to specify an arbitrary nonlinear transform by mathematically encoding prior structural assumptions.
 
-The first question someone not familiar with the field might ask is, why are differential equations important in this context? The simple answer is that a differential equation is a way to specify an arbitrary nonlinear transform by mathematically encoding prior structural assumptions.
-
-Let's unpack that statement a bit. There are three common ways to define a nonlinear transform: direct modeling, machine learning, and differential equations. Directly writing down the nonlinear function only works if you know the exact functional form that relates the input to the output. However, in many cases, such exact relations are not known a priori. So how do you do nonlinear modeling if you don't know the nonlinearity?
+There are three common ways to define a nonlinear transform: direct modeling, machine learning, and differential equations. Directly writing down the nonlinear function only works if you know the exact functional form that relates the input to the output. However, in many cases, such exact relations are not known a priori. So how do you do nonlinear modeling if you don't know the nonlinearity?
 
 One way to address this is to use machine learning. In a typical machine learning problem, you are given some input xxx and you want to predict an output yyy. This generation of a prediction yyy from xxx is a machine learning model (let's call it MLMLML). During training, we attempt to adjust the parameters of MLMLML so that it generates accurate predictions. We can then use MLMLML for inference (i.e., produce yyys for novel inputs xxx). This is just a nonlinear transformation y=ML(x)y=ML(x)y=ML(x). The reason MLMLML is interesting is because its form is basic but adapts to the data itself. For example, a simple neural network (in design matrix form) with sigmoid activation functions is simply matrix multiplications followed by application of sigmoid functions. Specifically,
 
@@ -61,7 +60,7 @@ So as our machine learning models grow and are hungry for larger and larger amou
 ### 3. Implementations
 
 ### 4. Possible Usecases
-
+The Spectrum Prediction Project. 
 
 ### 5. Reference
 https://julialang.org/blog/2019/01/fluxdiffeq/
